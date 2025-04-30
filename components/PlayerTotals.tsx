@@ -2,8 +2,6 @@
 
 import { Player, StatType } from "../types/basketball"
 
-const statTypes: StatType[] = ['FT', 'FTA', 'FG', 'FGA', '3', '3PA', 'rebounds', 'assists', 'steals', 'blocks', 'turnovers', 'fouls']
-
 interface PlayerTotalsProps {
   players: Player[]
 }
